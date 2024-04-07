@@ -5,7 +5,7 @@ import reviewsArr from "@/reviews";
 
 const page = async () => {
   const analysis = await getAnylysis(reviewsArr);
-  return <div>{analysis}</div>;
+  return <div>{JSON.stringify(analysis)}</div>;
 };
 
 export default page;
