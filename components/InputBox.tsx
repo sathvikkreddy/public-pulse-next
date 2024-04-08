@@ -21,8 +21,8 @@ const InputBox = ({
       setProgress(1);
       console.log("scrapping ...");
       const reviews = await getReviews(input);
-      console.log(reviews);
       // const reviews = reviewsArr;
+      console.log(reviews);
       console.log("generating ...");
       setProgress(2);
       const analysis = await getAnylysis(reviews);

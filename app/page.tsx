@@ -1,4 +1,5 @@
 "use client";
+export const maxDuration = 25;
 
 import React from "react";
 import { useRouter } from "next/navigation";
